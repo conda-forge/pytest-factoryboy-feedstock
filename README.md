@@ -1,13 +1,15 @@
 About pytest-factoryboy
 =======================
 
-Home: https://pytest-factoryboy.readthedocs.io/
+Home: https://pytest-factoryboy.readthedocs.io
 
 Package license: MIT
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-factoryboy-feedstock/blob/main/LICENSE.txt)
 
 Summary: Factory Boy support for pytest.
+
+Development: https://github.com/pytest-dev/pytest-factoryboy
 
 Current build status
 ====================
@@ -143,5 +145,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@bollwyvl](https://github.com/bollwyvl/)
 * [@cshaley](https://github.com/cshaley/)
 

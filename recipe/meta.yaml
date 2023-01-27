@@ -1,13 +1,12 @@
-{% set name = "pytest-factoryboy" %}
-{% set version = "2.5.0" %}
+{% set version = "2.5.1" %}
 
 package:
-  name: {{ name|lower }}
+  name: pytest-factoryboy
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pytest-factoryboy-{{ version }}.tar.gz
-  sha256: 8abcfe5396a2cadf0b2d6fc1ba607d05f191db915eac95733ab741cb30968a46
+  url: https://pypi.io/packages/source/p/pytest-factoryboy/pytest_factoryboy-{{ version }}.tar.gz
+  sha256: 7275a52299b20c0f58b63fdf7326b3fd2b7cbefbdaa90fdcfc776bbe92197484
 
 build:
   noarch: python
@@ -35,11 +34,13 @@ test:
     - pip
 
 about:
-  home: https://pytest-factoryboy.readthedocs.io/
+  home: https://pytest-factoryboy.readthedocs.io
   summary: Factory Boy support for pytest.
   license: MIT
   license_file: LICENSE.md
+  dev_url: https://github.com/pytest-dev/pytest-factoryboy
 
 extra:
   recipe-maintainers:
     - cshaley
+    - bollwyvl
