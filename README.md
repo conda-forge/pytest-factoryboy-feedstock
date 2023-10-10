@@ -1,11 +1,11 @@
-About pytest-factoryboy
-=======================
+About pytest-factoryboy-feedstock
+=================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-factoryboy-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pytest-factoryboy.readthedocs.io
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-factoryboy-feedstock/blob/main/LICENSE.txt)
 
 Summary: Factory Boy support for pytest.
 
