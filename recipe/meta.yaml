@@ -10,7 +10,7 @@ source:
 
 build:
   noarch: python
-  script: {{ PYTHON }} -m pip install . -vv
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   number: 0
 
 requirements:
@@ -21,7 +21,7 @@ requirements:
   run:
     - factory_boy >=2.10.0
     - inflection
-    - pytest >=5.0.0
+    - pytest >=6.2.0
     - python >=3.7
     - typing_extensions
 
