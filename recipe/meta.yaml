@@ -1,4 +1,4 @@
-{% set version = "2.6.0" %}
+{% set version = "2.7.0" %}
 
 package:
   name: pytest-factoryboy
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/p/pytest-factoryboy/pytest_factoryboy-{{ version }}.tar.gz
-  sha256: d09c37178693d8e594a96faf3c56e870b7753d2622710298b850ef79eb02d63d
+  sha256: 67fc54ec8669a3feb8ac60094dd57cd71eb0b20b2c319d2957873674c776a77b
 
 build:
   noarch: python
