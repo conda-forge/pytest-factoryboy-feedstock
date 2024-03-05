@@ -1,4 +1,4 @@
-{% set version = "2.6.0" %}
+{% set version = "2.6.1" %}
 
 package:
   name: pytest-factoryboy
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/p/pytest-factoryboy/pytest_factoryboy-{{ version }}.tar.gz
-  sha256: d09c37178693d8e594a96faf3c56e870b7753d2622710298b850ef79eb02d63d
+  sha256: 306afe42b27fba8027d026dd5aa99a3594caad30dce9d215443cefa788136547
 
 build:
   noarch: python
@@ -16,11 +16,12 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
     - poetry
+    - python >=3.7
   run:
     - factory_boy >=2.10.0
     - inflection
+    - packaging
     - pytest >=6.2.0
     - python >=3.7
     - typing_extensions
