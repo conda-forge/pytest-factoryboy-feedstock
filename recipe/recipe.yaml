@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "2.8.0"
+  version: "2.8.1"
 
 package:
   name: pytest-factoryboy
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/pytest-factoryboy/pytest_factoryboy-${{ version }}.tar.gz
-  sha256: bef3d1b087b20ff3b13b7c6ebcb8c13531b0eafa11fc47d7641600b2437dea7e
+  sha256: 2221d48b31b8b8ccaa739c6a162fb50a43a4de6dff6043f249d2807a3462548d
 
 build:
   number: 0
